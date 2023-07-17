@@ -34,12 +34,12 @@ const Experience = () => {
       title: "React",
       style: "shadow-blue-600",
     },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
+    // {
+    //   id: 5,
+    //   src: tailwind,
+    //   title: "Tailwind",
+    //   style: "shadow-sky-400",
+    // },
     {
       id: 6,
       src: java,
