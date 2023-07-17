@@ -6,7 +6,7 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import java from "../assets/Java-Logo.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+// import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
   const techs = [
