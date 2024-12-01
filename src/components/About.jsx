@@ -5,23 +5,52 @@ import React from "react";
 const About = () => {
 
     const description = [
+      {
+        id: 1,
+        role: "Data Analyst",
+        company: "Australia and New Zealand Banking Group (ANZ)",
+        timeline: "March 2024 - Present",
+        info: [
+          {
+              id:11,
+              content: "Designed and implemented automated workflows using KNIME to streamline data wrangling tasks, enhancing efficiency and accuracy."
+          },
+          {
+              id:12,
+              content: "Leveraged generative AI tools, including ChatGPT to discover and gather relevant data related to the organization, significantly speeding up the data collection process."
+          },
+          {
+              id:13,
+              content: "Created and managed a comprehensive knowledge graph in Neo4j, including designing schemas, establishing nodes,relationships, and properties, ensuring accurate and up-to-date data representation."
+          },
+          {
+            id:14,
+            content: "Tech Stack : Knime, Neo4J, SQL Server, Jira, Confluence"
+          }
+        ]
+
+      },
         {
-          id: 1,
+          id: 2,
           role: "Associate Consultant",
           company: "ORACLE FINANCIAL SERVICES SOFTWARE LTD.",
-          timeline: "Aug 2022 - Present",
+          timeline: "Aug 2022 - March 2024",
           info: [
             {
-                id:11,
-                content: "Implemented customisations as per the client’s requirement following the Oracle Banking Microservice Architecture (OBMA)"
+                id:211,
+                content: "Implemented customization in the form of microservices following the requirements for various clients including Bandhan Bank, Aavas Financiers and Capri Global Housing Finance Limited"
             },
             {
-                id:12,
+                id:212,
+                content: "Collaborated and communicated with cross-functional teams to ensure seamless integration"
+            },
+            {
+                id:213,
                 content: "Developed, tested, and deployed microservices with minimalrework"
             },
             {
-                id:13,
-                content: "Tech Stack : SpringBoot, JAVA, Oracle DB"
+              id:214,
+              content: "Tech Stack : SpringBoot, JAVA, Oracle DB"
             }
           ]
 
